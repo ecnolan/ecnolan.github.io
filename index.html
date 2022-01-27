@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <meta charset="utf-8">
-     <title>Eva Nolan - Home</title>
+    <meta charset="utf-8">
+    <title>Eva Nolan - Home</title>
+    <link rel="stylesheet" href="style.css">
    </head>
-   <body style = "background-color:darkslategray">
-     <!-- <h1 style="background-color:#ff6347;">...</h1>
-     rgba(255, 99, 71, 0.5) -->
-     <h1 style = "text-align:center; color:black; background-color:azure">Eva Nolan</h1>
-     <hr>
-     <p style="font-size:13px; color:white">I am a Mathematics and Computer Science student in my last semester at Hamilton College
-     <br>I am interested in software engineering, and enjoy maximizing efficiency while maintaining readability</p>
-     <p style="font-size:13px; color:white"> You can visit my github <a href = "https://github.com/ecnolan"> here </a> </p>
-     <img src="headshot.jpeg" width="200" height="135">
+   <body >
+     <h1 style="text-align:center">Eva Nolan</h1>
+     <!-- navigation bagr -->
+     <div class="topnav">
+       <a class="active" href="#home">Home</a>
+       <a href="portfolio.html">Portfolio</a>
+       <a href="resume.html">Resume</a>
+     </div>
      <br>
+     <!-- general info about me -->
+     <div class="row">
+       <div class="column">
+         <p style="font-size:13px">
+           Hi! I'm Eva, a senior mathematics major and computer science minor at
+          Hamilton College. I am really excited about all things computer
+          science, but have particularly enjoyed working in x86 Assembly Language
+          and love working on assemblers and compilers! Currently I am taking
+          courses in Computational Geometry and Artificial Intelligence. I love
+          learning & teaching myself new languages -- and am currently teaching
+          myself html & css!
+         <br>I am interested in work in software engineering or data science,
+         and enjoy maximizing efficiency while maintaining readability.</p>
+         <p style="font-size:13px"> You can visit my github <a href = "https://github.com/ecnolan"> here </a> </p>
+       </div>
+       <div class="column">
+          <img style="float: right;" src="headshot.jpeg" alt="headshot" width="200" height="135">
+       </div>
+     </div>
+
+     <br> <br>
+     <!-- contact info -->
      <address>
        Eva Nolan <br>
-       evacnol@gmail.com
+       <a href="mailto:evacnol@gmail.com">evacnol@gmail.com</a>
 
      </address>
 </body>
