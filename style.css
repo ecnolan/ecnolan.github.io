@@ -1,16 +1,20 @@
 body {background-color:#EDEDED; margin:30px}
 h1   {color:#FF5733; font-family: arial;}
-p    {color:#581845; font-family: arial; font-size: 28px;} /*font size not working */
+h2   {color:#900C3F}
+h3   {color:#900C3F}p    {color:#581845; font-family: arial; font-size: 13px;} /*font size not working */
 a:link {color:#900C3F }
-img {border-radius: 3%}
+img {
+    border-radius:10px;
+    overflow:hidden;
+}
 
 
 /* style for navigation bar */
-.topnav {background-color:#FFC300; overflow: hidden;}
-.topnav a {float: left; color: #f2f2f2; text-align: center; padding:12px 20px;
+.topnav {float:none;; background-color:#FFC300; overflow: hidden; border-radius:10px;}
+.topnav a {color: #f2f2f2; text-align: center; padding:0.5px 5%;
   text-decoration:none; font-size:21px; font-family:arial; }
-.topnav a:hover {background-color: #DAF7A6; color: #900C3F;}
-.topnav a.active {background-color: #FF5733; color: white;}
+.topnav a:hover {background-color: #FFE766; color: #900C3F; border-radius:10px}
+.topnav a.active {background-color: #FF5733; color: white; border-radius:10px}
 
 .column {float: left; width: 50%; font-size: 15px;}
 .row:after {content: ""; display: table; clear: both;
