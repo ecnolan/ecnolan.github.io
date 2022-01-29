@@ -18,3 +18,9 @@ img {
 
 .column {float: left; width: 50%; font-size: 15px;}
 .row:after {content: ""; display: table; clear: both;
+
+section.wrapper {
+  min-width: 200px; /* Minimum width of your wrapper element */
+  overflow: hidden;
+  display: inline-block;
+}
