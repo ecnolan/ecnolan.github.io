@@ -2,6 +2,9 @@ body {background-color:#EDEDED; margin:60px}
 h1   {color:#FF5733; font-family: arial; font-size: 40px}
 h2   {color:#900C3F;font-size: 34px}
 h3   {color:#900C3F}p    {color:#581845; font-family: arial; font-size: 34px;} /*font size not working */
+h4   {color:#900C3F;font-size: 28px}
+p    {font-size:22px}
+
 a:link {color:#900C3F }
 img {
     border-radius:10px;
