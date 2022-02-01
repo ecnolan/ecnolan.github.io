@@ -14,38 +14,30 @@
        <a href="resume.html">Resume</a>
      </div>
 
-
-     <!-- Tree research -->
-     <h4>Dendrochronologial Smoothing Spline Research </h4>
-     <p> The project focus was to develop alternative techniques for fitting
-       smoothing splines in the field of dendrochronology. Since 1981, the Cook
-       & Peters method has been used to fit splines to tree-ring width data to
-       obtain a spline with a 50% reduction in frequency. Since its development,
-       smoothing splines have advanced significantly, and we aimed to find a more
-       computationally efficient and meaningful technique for choosing the
-       smoothing parameter. We implemented and tested our methods in R, comparing
-       them against the dplR method currently used by dendrochronologists.
-
-       My research partner and I developed two alternative techniques that
-       achieve aproximately the same level of smoothing, but are more straightforward
-       in use and have more mathematical meaning. Most importantly, both of our
-       methods cut out the use of the forier transform, thus we greatly increase
-       the computational effiency.
-
-       We tested our methods on 9 datasets for robustness. Individual datasets have
-       between 20 and 100 trees, and each tree tends to have 50-150 data points.
-       Our improved computational efficiency was apparent in our ability to
-       process that amount of data much faster than the original method could. <br>
-
-       You can view the research poster
-       <a href="tree-splines.pdf"> here</a>.  <br>
-       Or you can read the full research paper
-       <a href="tree-spline-paper.pdf"> here</a>.  <br>
-
+     <!-- project 1 : chess-->
+     <h4>Lichess Social Network Analysis</h4>
+     <p > Analysis of the structure of social networks of online chess websites.
+       Worked with peer Valentin Scognamillo to look at data from chess games played
+       on lichess.org. Focus was on evaluating the efficacy of the player-ranking
+       system used on the side. We then looked into abnormalities in the structure,
+       particularly communities of high-associativity players, which indicated
+       players' tendancies to to show preference to a single game type.
+       We also found that players on long branches have a tendancy to be involved
+       in ranking-manipulation, and propose that cheating can be found by
+       investigating play history of users who's nodes fall on the longest shortest paths.
+       <br>
+       We used python to process our large dataset. We used Cytoscape and Gephi
+       for our network visualizations.
+       <br> You can find the full research paper
+       <a href="chess-social-networks-paper.pdf"> here</a>.  <br>
+       You can find the project repository on <a href = "https://github.com/ecnolan/chess"> github</a>.
      </p>
-     <img src="tree-spline-graph.jpg" style="width:100%; max-width:750px;
-     border-radius:0px">
-     <figcaption> Best and Worst Case fits of our method compared to the Cook & Peters Method </figcaption>
+     <img src="network.png" style="width:79%; max-width:600px; border-radius:0px">
+     <img src="legend.png" style="width:19%; max-width:150px; border-radius:0px">
+     <figcaption> Entire Lichess.org player social network, with edges colored by game type, and
+       nodes colored by player community.</figcaption>
+     <br>
+
 
      <!-- arcade assembly  -->
      <h4>Assembly Arcade</h4>
