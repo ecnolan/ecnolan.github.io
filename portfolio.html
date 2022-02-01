@@ -9,7 +9,7 @@
      <!-- main text -->
      <h1>Portfolio</h1>
      <div class="topnav">
-       <a href="index.html">Home</a>
+       <a href="http://www.evanolan.com/">Home</a>
        <a class="active" href="#portfolio">Portfolio</a>
        <a href="resume.html">Resume</a>
      </div>
@@ -29,19 +29,60 @@
        We used python to process our large dataset. We used Cytoscape and Gephi
        for our network visualizations.
        <br> You can find the full research paper
-       <a href="chess-social-networks-paper.pdf"> here </a>  <br>
-       You can find this project's repository on <a href = "https://github.com/ecnolan/chess"> github </a>
+       <a href="chess-social-networks-paper.pdf"> here</a>.  <br>
+       You can find the project repository on <a href = "https://github.com/ecnolan/chess"> github</a>.
      </p>
-     <img src="network.png" style="width:40%; max-width:400px; border-radius:0px">
-     <img src="legend.png" style="width:10%; max-width:100px; border-radius:0px">
+     <img src="network.png" style="width:79%; max-width:600px; border-radius:0px">
+     <img src="legend.png" style="width:19%; max-width:150px; border-radius:0px">
+     <figcaption> Entire Lichess.org player social network, with edges colored by game type, and
+       nodes colored by player community.</figcaption>
      <br>
 
      <!-- Tree research -->
      <h4>Dendrochronologial Smoothing Spline Research </h4>
+     <p> The project focus was to develop alternative techniques for fitting
+       smoothing splines in the field of dendrochronology. Since 1981, the Cook
+       & Peters method has been used to fit splines to tree-ring width data to
+       obtain a spline with a 50% reduction in frequency. Since its development,
+       smoothing splines have advanced significantly, and we aimed to find a more
+       computationally efficient and meaningful technique for choosing the
+       smoothing parameter. We implemented and tested our methods in R, comparing
+       them against the dplR method currently used by dendrochronologists.
+
+       My research partner and I developed two alternative techniques that
+       achieve aproximately the same level of smoothing, but are more straightforward
+       in use and have more mathematical meaning. Most importantly, both of our
+       methods cut out the use of the forier transform, thus we greatly increase
+       the computational effiency.
+
+       We tested our methods on 9 datasets for robustness. Individual datasets have
+       between 20 and 100 trees, and each tree tends to have 50-150 data points.
+       Our improved computational efficiency was apparent in our ability to
+       process that amount of data much faster than the original method could. <br>
+
+       You can view the research poster
+       <a href="tree-splines.pdf"> here</a>.  <br>
+       Or you can read the full research paper
+       <a href="tree-spline-paper.pdf"> here</a>.  <br>
+
+     </p>
+     <img src="tree-spline-graph.jpg" style="width:100%; max-width:750px;
+     border-radius:0px">
+     <figcaption> Best and Worst Case fits of our method compared to the Cook & Peters Method </figcaption>
+
+     <!-- arcade assembly  -->
+     <h4>Assembly Arcade</h4>
+     <p>Coded interactive snake arcade game in assembly language, displayed with
+     memory mapped IO.
+     You can find the project repository on
+     <a href="https://github.com/ecnolan/DOSsnake"> github</a>.</p>
+     <img src="snake1.jpg" style="width:50%; max-width:375px; border-radius:0px">
+     <img src="snake2.jpg" style="width:49%; max-width:374px; border-radius:0px"> 
 
      <!-- contact info -->
+     <br><br><br>
      <h2>Contact me</h2>
-     <p style="font-size:22px"> Eva Nolan <br>
+     <p style="font-size:22px;"> Eva Nolan <br>
         <a style="float:left"; href="mailto:eva.c.nolan00@gmail.com">
           <img src="email.png" style="width:18px;height:18px;padding-left:5px;
           padding-right:10px">evacnol@gmail.com</a> <br>

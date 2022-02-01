@@ -13,11 +13,11 @@ img {
 
 
 /* style for navigation bar */
-.topnav {float:none;; background-color:#FFC300; overflow: hidden; border-radius:10px;}
+.topnav {float:none;; background-color:#FFC300; overflow: hidden; border-radius:16px;}
 .topnav a {color: #f2f2f2; text-align: center; padding:0.5px 5%;
-  text-decoration:none; font-size:21px; font-family:arial; }
-.topnav a:hover {background-color: #FFE766; color: #900C3F; border-radius:10px}
-.topnav a.active {background-color: #FF5733; color: white; border-radius:10px}
+  text-decoration:none; font-size:25px; font-family:arial; }
+.topnav a:hover {background-color: #FFE766; color: #900C3F; border-radius:16px}
+.topnav a.active {background-color: #FF5733; color: white; border-radius:16px}
 
 .column {float: left; width: 50%; font-size: 15px;}
 .row:after {content: ""; display: table; clear: both;
