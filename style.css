@@ -1,9 +1,15 @@
-body {background-color:#EDEDED; margin:60px}
-h1   {color:#FF5733; font-family: arial; font-size: 40px}
-h2   {color:#900C3F;font-size: 34px}
-h3   {color:#900C3F}p    {color:#581845; font-family: arial; font-size: 34px;} /*font size not working */
-h4   {color:#900C3F;font-size: 28px}
-p    {font-size:22px}
+body  {background-color:#EDEDED; margin:60px}
+h1    {color:#FF5733; font-family: arial; font-size: 40px}
+h2    {color:#900C3F;font-size: 34px}
+h3    {color:#900C3F}
+h4    {color:#900C3F;font-size: 28px}
+h5    {color:#581845; font-family: serif; font-size: 18px; font-weight: normal;}
+
+p     {color:#581845; font-family: arial; font-size: 22px;} /*font size not working */
+ul.a  {list-style-type:circle; font-family:serif; font-size:18px; color:#581845 }
+.date {float: right; font-size:18px; font-style: italic; font-family: serif;}
+.loc  {font-size:18px; font-family: serif;}
+.p2   {color:#581845; font-family: serif; font-size: 18px; font-weight: bold;}
 
 a:link {color:#900C3F }
 img {

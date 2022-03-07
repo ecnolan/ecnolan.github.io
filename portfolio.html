@@ -38,6 +38,36 @@
        nodes colored by player community.</figcaption>
      <br>
 
+     <!-- Tree research -->
+     <h4>Dendrochronologial Smoothing Spline Research </h4>
+     <p> The project focus was to develop alternative techniques for fitting
+       smoothing splines in the field of dendrochronology. Since 1981, the Cook
+       & Peters method has been used to fit splines to tree-ring width data to
+       obtain a spline with a 50% reduction in frequency. Since its development,
+       smoothing splines have advanced significantly, and we aimed to find a more
+       computationally efficient and meaningful technique for choosing the
+       smoothing parameter. We implemented and tested our methods in R, comparing
+       them against the dplR method currently used by dendrochronologists.
+
+       My research partner and I developed two alternative techniques that
+       achieve aproximately the same level of smoothing, but are more straightforward
+       in use and have more mathematical meaning. Most importantly, both of our
+       methods cut out the use of the forier transform, thus we greatly increase
+       the computational effiency.
+
+       We tested our methods on 9 datasets for robustness. Individual datasets have
+       between 20 and 100 trees, and each tree tends to have 50-150 data points.
+       Our improved computational efficiency was apparent in our ability to
+       process that amount of data much faster than the original method could. <br>
+
+       You can view the research poster
+       <a href="tree-splines.pdf"> here</a>.  <br>
+       Or you can read the full research paper
+       <a href="tree-spline-paper.pdf"> here</a>.  <br>
+     </p>
+     <img src="tree-spline-graph.jpg" style="width:100%; max-width:750px;
+     border-radius:0px">
+     <figcaption> Best and Worst Case fits of our method compared to the Cook & Peters Method </figcaption>
 
      <!-- arcade assembly  -->
      <h4>Assembly Arcade</h4>
