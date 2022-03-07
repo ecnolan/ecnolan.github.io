@@ -11,6 +11,14 @@ ul.a  {list-style-type:circle; font-family:serif; font-size:18px; color:#581845 
 .loc  {font-size:18px; font-family: serif;}
 .p2   {color:#581845; font-family: serif; font-size: 18px; font-weight: bold;}
 
+/* .box  {background-color:#FFE766; padding:2px; border-radius:16px} */
+.box  {padding:2px; border-radius:16px}
+
+p + ul {
+    margin-top: -20px;
+}
+
+
 a:link {color:#900C3F }
 img {
     border-radius:10px;
