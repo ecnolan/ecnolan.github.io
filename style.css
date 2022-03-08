@@ -1,47 +1,38 @@
-body  {background-color:#EDEDED; margin:60px}
-hr    {height:1px; background-color:#FF5733; border:none}
-h1    {color:#FF5733; font-family: arial; font-size: 40px}
-h2    {color:#900C3F;font-size: 34px}
-h3    {color:#900C3F}
-h4    {color:#900C3F;font-size: 28px}
-h5    {color:#581845; font-family: serif; font-size: 18px; font-weight: normal;}
+body    {background-color:#EDEDED; margin:60px}
+hr      {height:1px; background-color:#FF5733; border:none}
+h1      {color:#FF5733; font-family:arial; font-size:40px}
+h2      {color:#900C3F;font-size:34px}
+h3      {color:#900C3F}
+h4      {color:#900C3F;font-size:28px}
+h5      {color:#581845; font-family:serif; font-size:18px; font-weight:normal;}
 
-p     {color:#581845; font-family: arial; font-size: 22px;} /*font size not working */
-ul.a  {list-style-type:circle; font-family:serif; font-size:18px; color:#581845 }
-.date {float: right; font-size:18px; font-style: italic; font-family: serif;}
-.loc  {font-size:18px; font-family: serif}
-.p2   {color:#581845; font-family: serif; font-size: 18px; font-weight: bold;}
+p       {color:#581845; font-family:arial; font-size:22px;} /*font size not working */
+
+.date   {float:right; font-size:18px; font-style:italic; font-family:serif;}
+.loc    {font-size:18px; font-family:serif}
+.p2     {color:#581845; font-family:arial; font-size:20px;}
+
+ul.a    {list-style-type:circle; font-family:serif; font-size:18px; color:#581845 }
+
 
 /* .box  {background-color:#FFE766; padding:2px; border-radius:16px} */
-.box  {padding:2px; border-radius:16px}
+.box    {padding:2px; border-radius:16px}
 
-p + ul {
-    margin-top: -20px;
-}
-
-h2 + hr {
-    margin-top: -15px;
-}
+p + ul  {margin-top:-20px;}
+h2 + hr {margin-top:-15px;}
 
 a:link {color:#900C3F }
-img {
-    border-radius:10px;
-    overflow:hidden;
-}
+img    {border-radius:10px; overflow:hidden;}
 
 
 /* style for navigation bar */
-.topnav {float:none;; background-color:#FFC300; overflow: hidden; border-radius:16px;}
-.topnav a {color: #f2f2f2; text-align: center; padding:0.5px 5%;
-  text-decoration:none; font-size:25px; font-family:arial; }
-.topnav a:hover {background-color: #FFE766; color: #900C3F; border-radius:16px}
-.topnav a.active {background-color: #FF5733; color: white; border-radius:16px}
+.topnav {float:none; background-color:#FFC300; overflow:hidden; border-radius:16px;}
+.topnav a {color: #f2f2f2; text-align:center; padding:0.5px 5%;
+           text-decoration:none; font-size:25px; font-family:arial; }
+.topnav a:hover  {background-color:#FFE766; color:#900C3F; border-radius:16px}
+.topnav a.active {background-color:#FF5733; color:white; border-radius:16px}
 
-.column {float: left; width: 50%; font-size: 15px;}
-.row:after {content: ""; display: table; clear: both;
+.column {float:left; width:50%; font-size:15px;}
+.row:after {content: ""; display:table; clear:both;}
 
-section.wrapper {
-  min-width: 200px; /* Minimum width of your wrapper element */
-  overflow: hidden;
-  display: inline-block;
-}
+section.wrapper {min-width:200px; overflow:hidden; display:inline-block;}
