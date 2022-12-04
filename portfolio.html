@@ -17,23 +17,27 @@
      <hr>
 
      <!-- project 1 : chess-->
-     <h4>Lichess Social Network Analysis</h4>
-     <p > Analysis of the structure of social networks of online chess websites.
-       Worked with peer Valentin Scognamillo to analyze data from chess games played
-       on lichess.org. Focus was on evaluating the efficacy of the player-ranking
-       system used on the site. Additionally, we evaluated abnormalities in the structure,
-       particularly communities of high-associativity players, which indicated
-       players' tendencies to show preference towards a single game type.
-       We determined that players on long branches have a tendency to be involved
-       in ranking-manipulation, and proposed that cheating can be found by
-       investigating play history of users whose nodes fall on the longest shortest paths.
-       <br>
-       We used python to process our large dataset. We used Cytoscape and Gephi
-       for our network visualizations.
-       <br> You can find the full research paper
-       <a href="chess-social-networks-paper.pdf"> here</a>.  <br>
-       You can find the project repository on <a href = "https://github.com/ecnolan/chess"> github</a>.
-     </p>
+     <p>
+        <p>
+          <span class="head2">
+            Lichess Social Network Analysis
+          </span class="head2"> <br>
+          <span class="head">
+            <a href="chess-social-networks-paper.pdf"> full research paper</a> |
+            <a href = "https://github.com/ecnolan/chess"> project repository</a>
+          </span class="head2">
+        </p>
+        <ul class="a">
+          <li> Open ended research project analyzing the social network structure of online chess website Lichess.com </li>
+          <li> Evaluated efficacy of player-ranking system currently used by site </li>
+          <li> Evaluated gameplay preferences and shared player behaviors </li>
+          <li> Identified communities of high-associativity players indicating groups with shared gameplay behavior </li>
+          <li> Identified players on long branches as being guilty of cheating and ranking-manipulation </li>
+          <li> Proposed network analysis as means of more accurate identification of players misusing the platform </li>
+          <li> Utilized python (including networkx package) for network analysis. Utilized Cytoscape and gephi for network visualizations. </li>
+        </ul>
+      </p>
+
      <img src="network.png" style="width:79%; max-width:600px; border-radius:0px">
      <img src="legend.png" style="width:19%; max-width:150px; border-radius:0px">
 
@@ -42,57 +46,62 @@
      <br>
 
      <!-- Tree research -->
-     <h4>Dendrochronologial Smoothing Spline Research </h4>
-     <p> The project focus was to develop alternative techniques for fitting
-       smoothing splines in the field of dendrochronology. Since 1981, the Cook
-       & Peters method has been used to fit splines to tree-ring width data to
-       obtain a spline with a 50% reduction in frequency. Since its development,
-       smoothing splines have advanced significantly, and we aimed to find a more
-       computationally efficient and meaningful technique for choosing the
-       smoothing parameter. We implemented and tested our methods in R, comparing
-       them against the dplR method currently used by dendrochronologists.
-
-       My research partner and I developed two alternative techniques that
-       achieve approximately the same level of smoothing, but that are more straightforward
-       in use and have more mathematical transparency. Most importantly, both of our
-       methods eliminated the use of the Fourier transform, thus we greatly increase
-       the computational efficiency.
-
-       We tested our methods on 9 datasets for robustness. Individual datasets have
-       between 20 and 100 trees, and each tree tends to have 50-150 data points.
-       Our improved computational efficiency was apparent in our ability to
-       process this amount of data much faster than the original method. <br>
-
-       Check out the
-       <a href="tree-splines.pdf"> research poster</a> or read the
-       <a href="tree-spline-paper.pdf"> full paper</a>.  <br>
+     <p>
+       <span class="head2">
+         Dendrochronologial Smoothing Spline Research
+       </span class="head2"> <br>
+       <span class="head">
+         <a href="tree-splines.pdf"> research poster</a> |
+         <a href="tree-spline-paper.pdf"> full paper </a>
+       </span class="head">
      </p>
+     <ul class="a">
+       <li> Developed alternative technique for fitting smoothing splines to tree-ring width data for climate analysis </li>
+       <li> Improved upon the Cook & Peters 1981 method </li>
+       <li> Created new method with same accuracy that is more computationally efficient, mathematically meaningful, and accessible to non-mathematicians </li>
+       <li> Compared new methods with original method found in dendrochronologists' dplR R package </li>
+       <li> New method eliminates use of the Fourier transform in computation </li>
+       <li> Compared methods on data from approximately 2,000 trees' data to test and confirm accuracy and computational efficiency </li>
+     </ul>
+
      <img src="treesplinegraph.jpeg" style="width:100%; max-width:750px;
      border-radius:0px">
      <figcaption> Best and Worst Case fits of our method compared to the Cook & Peters Method </figcaption>
 
      <!-- arcade assembly  -->
-     <h4>Assembly Arcade</h4>
-     <p>Coded interactive snake arcade game in assembly language, displayed with
-     memory mapped IO.
-     You can find the project repository on
-     <a href="https://github.com/ecnolan/DOSsnake"> github</a>.</p>
+     <p>
+       <span class="head2">
+         Assembly Arcade
+       </span class="head2"> <br>
+       <span class="head">
+         <a href="https://github.com/ecnolan/DOSsnake"> github repository </a>
+       </span class="head">
+     </p>
+     <ul class="a">
+       <li> Project Repository on github </li>
+       <li> Coded interactive snake arcade game in x86 assembly language </li>
+       <li> Game displayed with memory mapped IO </li>
+       <li> Player's moves are registered with interruptions </li>
+     </ul>
+     
      <img src="snake1.jpg" style="width:50%; max-width:375px; border-radius:0px">
      <img src="snake2.jpg" style="width:49%; max-width:374px; border-radius:0px">
 
      <!-- contact info -->
      <br><br><br>
-     <h2>Contact me</h2>
-     <p style="font-size:22px;"> Eva Nolan <br>
-        <a style="float:left"; href="mailto:eva.c.nolan00@gmail.com">
-          <img src="email.png" style="width:18px;height:18px;padding-left:5px;
-          padding-right:10px">eva.c.nolan00@gmail.com</a> <br>
-        <a href = "https://github.com/ecnolan">
-          <img src="gitpng.png" style="width:18px;height:18px;padding-left:5px;
-          padding-right:10px">github.com/ecnolan </a> <br>
-        <a href = "https://instagram.com/evachristinaknits">
-          <img src="ig.png" style="width:18px;height:18px;padding-left:5px;
-          padding-right:10px">instagram.com/evachristinaknits </a> <br>
-     </p>
+     <div class="box">
+       <h2>Contact me</h2>
+       <p style="font-size:22px;"> Eva Nolan <br>
+          <a style="float:left"; href="mailto:eva.c.nolan00@gmail.com">
+            <img src="email.png" style="width:18px;height:18px;padding-left:5px;
+            padding-right:10px">eva.c.nolan00@gmail.com</a> <br>
+          <a href = "https://github.com/ecnolan">
+            <img src="gitpng.png" style="width:18px;height:18px;padding-left:5px;
+            padding-right:10px">github.com/ecnolan </a> <br>
+          <a href = "https://instagram.com/evachristinaknits">
+            <img src="ig.png" style="width:18px;height:18px;padding-left:5px;
+            padding-right:10px">instagram.com/evachristinaknits </a> <br>
+       </p>
+   </div>
 </body>
 </html>

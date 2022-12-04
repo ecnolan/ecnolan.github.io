@@ -10,6 +10,7 @@ p       {color:#581845; font-family:arial; font-size:22px;} /*font size not work
 
 .date   {float:right; font-size:18px; font-style:italic; font-family:serif;}
 .head   {font-size:18px; font-family:serif; font-weight: bold}
+.head2  {color:#900C3F; font-family:serif; font-weight: bold; font-size:22px}
 .loc    {font-size:18px; font-family:serif}
 .p2     {color:#581845; font-family:arial; font-size:20px;}
 
