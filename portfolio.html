@@ -16,6 +16,35 @@
      </div>
      <hr>
 
+
+     <!-- Tree research -->
+     <p>
+       <span class="head2">
+         Dendrochronologial Smoothing Spline Research
+       </span class="head2"> <br>
+       <span class="head">
+         <a href="tree-splines.pdf"> research poster</a> |
+         <a href="tree-spline-paper.pdf"> full paper </a>
+         <br>
+         Abstract: </span class="head">
+         <span class="loc">
+         Dendrochronologists study tree rings to reconstruct past climatic conditions. The first step in processing tree-ring data is to use smoothing splines to separate climatic versus non-climatic trends. Smoothing splines are piecewise cubic polynomials which offer the flexibility needed to fit tree-ring data. A smoothing parameter is used to balance bias and variance in smoothing spline models—changing its value can make the models more linear or more interpolating. While smoothing splines are used in many other fields, the standard practice in dendrochronology is to choose the smoothing parameter using a method developed by Cook and Peters in 1981, which is a selection method unique to the field. For this method, the Fourier transform is employed to filter out the different frequencies present in the growth trend. However, as the Cook and Peters method is so specific to dendrochronology, a traditional spline method for choosing the smoothing parameter may be more widely understood, making tree-ring data processing more accessible to a wider audience. This paper identifies an equivalence between traditional smoothing spline selection methods and the Cook and Peters method. Comparing the performance of multiple smoothing parameter selection methods with the Cook and Peters method determined that for specific values the traditional selection method degrees of freedom produces approximately equal splines to the Cook and Peters method. Additionally, this research identifies a direct relationship between the smoothing parameters chosen by the Cook and Peters method and this degrees of freedom method.
+         </span class="loc">
+     </p>
+     <!-- <ul class="a">
+       <li> Developed alternative technique for fitting smoothing splines to tree-ring width data for climate analysis </li>
+       <li> Improved upon the Cook & Peters 1981 method </li>
+       <li> Created new method with same accuracy that is more computationally efficient, mathematically meaningful, and accessible to non-mathematicians </li>
+       <li> Compared new methods with original method found in dendrochronologists' dplR R package </li>
+       <li> New method eliminates use of the Fourier transform in computation </li>
+       <li> Compared methods on data from approximately 2,000 trees' data to test and confirm accuracy and computational efficiency </li>
+     </ul> -->
+
+     <img src="treesplinegraph.jpeg" style="width:100%; max-width:750px;
+     border-radius:0px">
+     <figcaption> Best and Worst Case fits of our method compared to the Cook & Peters Method </figcaption>
+     <hr>
+
      <!-- project 1 : chess-->
      <p>
         <p>
@@ -25,8 +54,27 @@
           <span class="head">
             <a href="chess-social-networks-paper.pdf"> full research paper</a> |
             <a href = "https://github.com/ecnolan/chess"> project repository</a>
-          </span class="head2">
-        </p>
+            <br>
+            Abstract: </span class="head">
+            <span class="loc">
+            Online chess makes for a significant portion of world wide chess play.
+            As it has grown, online player rankings have become increasignly
+            significant in the chess world. This paper analyses the efficacy of
+            the current ranking method employed by lichess.com (one of the most
+            popular online chess platforms world wide). In our analysis of
+            gameplay data, using NetworkX, gephi, and cytoscape to analyse the
+            data as a social network, we confirm efficacy of ranking across
+            multiple gameplay communities (based on players' preferred game type)
+            and identify a style of ranking manipulation committed by players
+            on network branches of abnormally large length. This cheating style
+            has not yet been identified by the current technology on the site.
+            Players get removed when caught breaking site rules, but the
+            majority of fraudulent accounts identified by our program are
+            still active accounts. This papers suggests that the game developers
+            implement our network analysis method as a means of more accurately
+            identifying foul play.
+            </span class="loc">
+        <!-- </p>
         <ul class="a">
           <li> Open ended research project analyzing the social network structure of online chess website Lichess.com </li>
           <li> Evaluated efficacy of player-ranking system currently used by site </li>
@@ -35,7 +83,7 @@
           <li> Identified players on long branches as being guilty of cheating and ranking-manipulation </li>
           <li> Proposed network analysis as means of more accurate identification of players misusing the platform </li>
           <li> Utilized python (including networkx package) for network analysis. Utilized Cytoscape and gephi for network visualizations. </li>
-        </ul>
+        </ul> -->
       </p>
 
      <img src="network.png" style="width:79%; max-width:600px; border-radius:0px">
@@ -46,31 +94,6 @@
      <br>
      <hr>
 
-     <!-- Tree research -->
-     <p>
-       <span class="head2">
-         Dendrochronologial Smoothing Spline Research
-       </span class="head2"> <br>
-       <span class="head">
-         <a href="tree-splines.pdf"> research poster</a> |
-         <a href="tree-spline-paper.pdf"> full paper </a>
-       </span class="head">
-     </p>
-     <ul class="a">
-       <li> Developed alternative technique for fitting smoothing splines to tree-ring width data for climate analysis </li>
-       <li> Improved upon the Cook & Peters 1981 method </li>
-       <li> Created new method with same accuracy that is more computationally efficient, mathematically meaningful, and accessible to non-mathematicians </li>
-       <li> Compared new methods with original method found in dendrochronologists' dplR R package </li>
-       <li> New method eliminates use of the Fourier transform in computation </li>
-       <li> Compared methods on data from approximately 2,000 trees' data to test and confirm accuracy and computational efficiency </li>
-     </ul>
-
-     <img src="treesplinegraph.jpeg" style="width:100%; max-width:750px;
-     border-radius:0px">
-     <figcaption> Best and Worst Case fits of our method compared to the Cook & Peters Method </figcaption>
-     <hr>
-
-
      <!-- k nearest neighbors  -->
      <p>
        <span class="head2">
@@ -80,14 +103,20 @@
          <a href="https://github.com/ecnolan/k_nearest_neighbors"> github
            repository</a> |
          <a href="CPSCI307_EvaNolan_Synthesis.pdf"> project synthesis paper </a>
-       </span class="head">
+         <br>
+         Summary: </span class="head">
+         <span class="loc">
+          Implemented a k nearest neighbor query based on algorithm concepts
+          discussed in computational geometry course. Implemented in python, runs in O(log<em>n</em>) time on
+          2-dimensional datasets.
+         </span class="loc">
      </p>
-     <ul class="a">
+     <!-- <ul class="a">
        <li> Implemented a k nearest neighbor query based on algorithm concepts
          discussed in computational geometry course. </li>
        <li> Implemented in python, runs in O(log<em>n</em>) time on
          2-dimensional datasets. </li>
-     </ul>
+     </ul> -->
 
      <img src="knn1.JPG" style="width:50%; max-width:375px; border-radius:0px">
      <img src="knn2.JPG" style="width:40.5%; max-width:374px; border-radius:0px">
@@ -100,14 +129,22 @@
        </span class="head2"> <br>
        <span class="head">
          <a href="https://github.com/ecnolan/DOSsnake"> github repository </a>
-       </span class="head">
+         <br>
+         Summary: </span class="head">
+         <span class="loc">
+           Coded interactive snake arcade game in x86 assembly language. Game
+           displayed with memory mapped IO and registers players' moves using
+           interruptions. Game tracks players' scores and registers end-of-game
+           moves consistent with the rules of the classic arcade game.
+
+         </span class="loc">
      </p>
-     <ul class="a">
+     <!-- <ul class="a">
        <li> Coded interactive snake arcade game in x86 assembly language </li>
        <li> Game displayed with memory mapped IO </li>
        <li> tracks players' scores and registers end-of-game moves consistent with the rules of the classic arcade game. </li>
-       <li> Player's moves are registered with interruptions </li>
-     </ul>
+       <li> Player's moves are registered with interruptions </li> -->
+     <!-- </ul> -->
 
      <img src="snake1.jpg" style="width:50%; max-width:375px; border-radius:0px">
      <img src="snake2.jpg" style="width:49%; max-width:374px; border-radius:0px">
